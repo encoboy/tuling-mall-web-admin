@@ -133,7 +133,7 @@
       }
       this.getSelectProductCateList();
       // 初始化筛选属性级联数据 -  接口报错，暂时无法解决
-      // this.getProductAttrCateList();
+      this.getProductAttrCateList();
     },
     methods: {
       getSelectProductCateList() {
