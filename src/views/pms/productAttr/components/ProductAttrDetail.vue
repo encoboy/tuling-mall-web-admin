@@ -160,6 +160,7 @@
                     duration: 1000
                   }); 
                   this.resetForm('productAttrFrom'); 
+                  this.$router.back();  
                 });
               }
             });
