@@ -43,7 +43,7 @@
                          :value="item.value">
               </el-option>
             </el-select>
-          </el-form-item>
+          </el-form-item> 
           <el-form-item label="订单分类：">
             <el-select v-model="listQuery.orderType" class="input-width" placeholder="全部" clearable>
               <el-option v-for="item in orderTypeOptions"

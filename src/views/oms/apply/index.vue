@@ -68,7 +68,7 @@
                 v-loading="listLoading" border>
         <el-table-column type="selection" width="60" align="center"></el-table-column>
         <el-table-column label="服务单号" width="180" align="center">
-          <template slot-scope="scope">{{scope.row.id}}</template>
+          <template slot-scope="scope">{{scope.row.orderId}}</template>
         </el-table-column>
         <el-table-column label="申请时间" width="180" align="center">
           <template slot-scope="scope">{{scope.row.createTime | formatTime}}</template>
@@ -135,7 +135,6 @@
     pageNum: 1,
     pageSize: 10,
     id: null,
-    receiverKeyword: null,
     status: null,
     createTime: null,
     handleMan: null,
